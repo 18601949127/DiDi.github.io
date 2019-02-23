@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+=======
+>>>>>>> 11b22fa63cb7d4103795b4383e444fe908419e3a
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_logo">
+
+    <target
+<<<<<<< HEAD
+        android:animation="@animator/anim_bar_fill"
+        android:name="logo"/>
+=======
+        android:name="logo"
+        android:animation="@animator/anim_bar_fill" />
+
+
+>>>>>>> 11b22fa63cb7d4103795b4383e444fe908419e3a
+
+</animated-vector>

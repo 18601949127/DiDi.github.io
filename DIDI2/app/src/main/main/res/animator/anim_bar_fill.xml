@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+=======
+>>>>>>> 11b22fa63cb7d4103795b4383e444fe908419e3a
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:propertyName="trimPathEnd"
+    android:repeatCount="0"
+    android:valueFrom="0"
+    android:valueTo="1"
+    android:valueType="floatType"/>
