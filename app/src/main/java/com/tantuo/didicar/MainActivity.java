@@ -1,5 +1,6 @@
 package com.tantuo.didicar;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +10,7 @@ import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.MapView;
 import com.tantuo.didicar.splash.SplashActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private MapView mMapView;
     private BaiduMap mBaiduMap;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         SDKInitializer.initialize(getApplicationContext());
-        setContentView(R.layout.activity_logo_splash_beforemain);
+        setContentView(R.layout.activity_main);
 
 
         mMapView = (MapView) findViewById(R.id.bmapView);
