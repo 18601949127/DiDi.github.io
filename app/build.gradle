@@ -34,4 +34,6 @@ dependencies {
     implementation files('libs/baidumapapi_search_v4_1_1.jar')
     implementation files('libs/baidumapapi_util_v4_1_1.jar')
     implementation files('libs/locSDK_6.13.jar')
+    implementation project(':SlidingMenu_library')
+
 }

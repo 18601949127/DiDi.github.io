@@ -1,29 +1,38 @@
 package com.tantuo.didicar;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.MapView;
-import com.tantuo.didicar.splash.SplashActivity;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 
-public class MainActivity extends Activity {
+public class MainActivity extends SlidingFragmentActivity {
 
     private MapView mMapView;
     private BaiduMap mBaiduMap;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //在使用SDK各组件之前初始化context信息，传入ApplicationContext
         //注意该方法要再setContentView方法之前实现
 
-
         SDKInitializer.initialize(getApplicationContext());
         setContentView(R.layout.activity_main);
+
+        //添加左侧Sliding_Menu
+        setBehindContentView(R.layout.activity_leftmenu);
+        //添加右侧菜单 secondaryMenu
+        SlidingMenu slidingMenu = getSlidingMenu();
+        slidingMenu.setSecondaryMenu(R.layout.activity_rightmenu);
+        //设置SlidingMenu模式
+        slidingMenu.setMode(slidingMenu.LEFT_RIGHT);
+        slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_MARGIN);
+
+
+
 
 
         mMapView = (MapView) findViewById(R.id.bmapView);
