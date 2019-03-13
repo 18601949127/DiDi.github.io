@@ -1,6 +1,7 @@
 package com.tantuo.didicar;
 
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
@@ -12,6 +13,7 @@ public class MainActivity extends SlidingFragmentActivity {
 
     private MapView mMapView;
     private BaiduMap mBaiduMap;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,10 +31,15 @@ public class MainActivity extends SlidingFragmentActivity {
         slidingMenu.setSecondaryMenu(R.layout.activity_rightmenu);
         //设置SlidingMenu模式
         slidingMenu.setMode(slidingMenu.LEFT_RIGHT);
-        slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_MARGIN);
+        slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        slidingMenu.setFadeDegree(0.4f);
+        slidingMenu.setFadeEnabled(true);
 
-
-
+        DisplayMetrics displayMetricscs = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetricscs);
+        int screeWidth = displayMetricscs.widthPixels;
+        int screeHeight = displayMetricscs.heightPixels;
+        slidingMenu.setBehindOffset((int) (screeWidth*0.65));
 
 
         mMapView = (MapView) findViewById(R.id.bmapView);
