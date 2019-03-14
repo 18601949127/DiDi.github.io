@@ -5,7 +5,6 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.tantuo.didicar.R;
 import com.tantuo.didicar.base.BaseMenuFragment;
 import com.tantuo.didicar.utils.LogUtil;
 
@@ -22,10 +21,12 @@ public class LeftMenuFragment extends BaseMenuFragment {
 
     @Override
     public View initView() {
+        LogUtil.i("左侧视图被初始化");
         textView = new TextView(context);
         textView.setTextSize(23);
         textView.setGravity(Gravity.CENTER);
         textView.setTextColor(Color.RED);
+        return textView;
 
     }
 
