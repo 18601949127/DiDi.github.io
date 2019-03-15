@@ -1,10 +1,8 @@
 package com.tantuo.didicar.fragment;
 
-import android.graphics.Color;
-import android.view.Gravity;
 import android.view.View;
-import android.widget.TextView;
 
+import com.tantuo.didicar.R;
 import com.tantuo.didicar.base.BaseMenuFragment;
 import com.tantuo.didicar.utils.LogUtil;
 
@@ -16,16 +14,15 @@ import com.tantuo.didicar.utils.LogUtil;
 
 public class ContentFragment extends BaseMenuFragment {
 
-    private TextView textView;
+
 
 
     @Override
     public View initView() {
         LogUtil.i("正文视图被初始化");
-        textView = new TextView(context);
-        textView.setTextSize(23);
-        textView.setGravity(Gravity.CENTER);
-        textView.setTextColor(Color.RED);
+
+        View view = View.inflate(getActivity(), R.layout.content_fragment,null);
+
         return textView;
 
     }
