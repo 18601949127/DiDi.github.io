@@ -1,6 +1,8 @@
 package com.tantuo.didicar.fragment;
 
+import android.support.v4.view.ViewPager;
 import android.view.View;
+import android.widget.RadioGroup;
 
 import com.tantuo.didicar.R;
 import com.tantuo.didicar.base.BaseMenuFragment;
@@ -13,6 +15,8 @@ import com.tantuo.didicar.utils.LogUtil;
  */
 
 public class ContentFragment extends BaseMenuFragment {
+    private ViewPager viewPager;
+    private RadioGroup rg_main;
 
 
 
@@ -21,17 +25,25 @@ public class ContentFragment extends BaseMenuFragment {
     public View initView() {
         LogUtil.i("正文视图被初始化");
 
+
         View view = View.inflate(getActivity(), R.layout.content_fragment,null);
 
-        return textView;
+        viewPager = view.findViewById(R.id.viewpager);
+        rg_main = view.findViewById(R.id.rg_main);
+
+
+        return view;
 
     }
 
     @Override
     protected void initData() {
         super.initData();
+
+        //设置底部radio_button的默认选择
+        rg_main.check(R.id.rb_map);
+
         LogUtil.i("这里是正文");
 
-        textView.setText("正文页面");
     }
 }

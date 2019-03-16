@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.atguigu.beijingnews.view.NoScrollViewPager
+    <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -26,18 +26,18 @@
             />
 
         <RadioButton
-            android:id="@+id/rb_newscenter"
-            android:drawableTop="@drawable/rb_newscenter_drawable_selector"
+            android:id="@+id/rb_map"
+            android:drawableTop="@drawable/rb_map_drawable_selector"
             android:gravity="center"
-            android:text="地图"
+            android:text="打车"
             style="@style/bottom_tag_style"
             />
 
         <RadioButton
             android:id="@+id/rb_smartservice"
-            android:drawableTop="@drawable/rb_smartservice_drawable_selector"
+            android:drawableTop="@drawable/rb_cardservice_drawable_selector"
             android:gravity="center"
-            android:text="商城"
+            android:text="认证"
             style="@style/bottom_tag_style"
             />
 
@@ -48,7 +48,7 @@
             android:id="@+id/rb_govaffair"
             android:drawableTop="@drawable/rb_govaffair_drawable_selector"
             android:gravity="center"
-            android:text="购物车"
+            android:text="合规"
             style="@style/bottom_tag_style"
             />
 
