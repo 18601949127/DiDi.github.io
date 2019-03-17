@@ -37,10 +37,11 @@ public class MainActivity extends SlidingFragmentActivity {
         SlidingMenu slidingMenu = getSlidingMenu();
         slidingMenu.setSecondaryMenu(R.layout.activity_rightmenu);
         //设置SlidingMenu模式
-        slidingMenu.setMode(slidingMenu.LEFT_RIGHT);
+        slidingMenu.setMode(SlidingMenu.LEFT);
         slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
         slidingMenu.setFadeDegree(0.4f);
         slidingMenu.setFadeEnabled(true);
+
 
         DisplayMetrics displayMetricscs = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetricscs);

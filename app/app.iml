@@ -135,6 +135,7 @@
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-v4:26.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup:javawriter:2.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.xutils:xutils:3.3.36@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/tan/GitHub Repository/DiDiCar/app/libs/baidumapapi_radar_v4_1_1.jar:unspecified@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-core:3.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/tan/GitHub Repository/DiDiCar/app/libs/baidumapapi_base_v4_1_1.jar:unspecified@jar" level="project" />
