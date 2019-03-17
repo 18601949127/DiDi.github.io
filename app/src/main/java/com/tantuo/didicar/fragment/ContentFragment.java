@@ -1,11 +1,12 @@
 package com.tantuo.didicar.fragment;
 
 import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioGroup;
 
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.tantuo.didicar.MainActivity;
 import com.tantuo.didicar.R;
 import com.tantuo.didicar.base.BaseMenuFragment;
 import com.tantuo.didicar.base.BasePager;
@@ -15,6 +16,7 @@ import com.tantuo.didicar.pager.HomePager;
 import com.tantuo.didicar.pager.MapPager;
 import com.tantuo.didicar.pager.SettingPager;
 import com.tantuo.didicar.utils.LogUtil;
+import com.tantuo.didicar.view.NoScrollViewPager;
 
 import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
@@ -30,7 +32,7 @@ import java.util.ArrayList;
 public class ContentFragment extends BaseMenuFragment {
 
     @ViewInject(R.id.viewpager)
-    private ViewPager viewpager;
+    private NoScrollViewPager viewpager;
     @ViewInject(R.id.rg_main)
     private RadioGroup rg_main;
 
@@ -73,7 +75,56 @@ public class ContentFragment extends BaseMenuFragment {
 
         //viewPagerAdapter
         viewpager.setAdapter(new ContentFragmentAdapter(basePagers));
+
+        //设置底部radio_button的默认选择
+        rg_main.check(R.id.rb_map);
+        rg_main.setOnCheckedChangeListener(new MyOnCheckedChangeListener());
+
+        //slidingMenu不可以滑动
+        isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
+
+
+
     }
+
+    class MyOnCheckedChangeListener implements RadioGroup.OnCheckedChangeListener {
+
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+            switch (checkedId){
+                case R.id.rb_home:
+                    viewpager.setCurrentItem(0,true);
+                    //smoothScroll代表是否滑动渐入或者渐出 by:Tantuo
+                    isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
+                    break;
+                case R.id.rb_map:
+                    viewpager.setCurrentItem(1,true);
+                    isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
+                    break;
+                case R.id.rb_cardservice:
+                    viewpager.setCurrentItem(2,true);
+                    isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
+                    break;
+                case R.id.rb_govaffair:
+                    viewpager.setCurrentItem(3,true);
+                    isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
+                    break;
+                case R.id.rb_setting:
+                    viewpager.setCurrentItem(4,true);
+                    isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
+                    break;
+            }
+
+        }
+    }
+    /**
+     根据传入的参数设置是否让SlidingMenu可以滑动
+     */
+    private void isEnableSlidingMenu(int touchmodeFullscreen) {
+        MainActivity mainActivity = (MainActivity) context;
+        mainActivity.getSlidingMenu().setTouchModeAbove(touchmodeFullscreen);
+    }
+
 
     public class ContentFragmentAdapter extends PagerAdapter {
 

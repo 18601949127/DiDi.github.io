@@ -25,7 +25,7 @@ public class GovaffairPager extends BasePager {
     @Override
     public void initData() {
         super.initData();
-        LogUtil.i("主页面数据被初始化了..");
+        LogUtil.i("合规数据初始化..");
         //1.设置标题
         tv_title.setText("主页面");
         //2.联网请求，得到数据，创建视图

@@ -25,9 +25,9 @@ public class MapPager extends BasePager {
     @Override
     public void initData() {
         super.initData();
-        LogUtil.i("主页面数据被初始化了..");
+        LogUtil.i("地图界面初始化..");
         //1.设置标题
-        tv_title.setText("主页面");
+        tv_title.setText("3333333");
         //2.联网请求，得到数据，创建视图
         TextView textView = new TextView(context);
         textView.setGravity(Gravity.CENTER);
@@ -36,7 +36,7 @@ public class MapPager extends BasePager {
         //3.把子视图添加到BasePager的FrameLayout中
         fl_content.addView(textView);
         //4.绑定数据
-        textView.setText("主页面内容");
+        textView.setText("3333333");
 
     }
 }
