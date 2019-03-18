@@ -1,6 +1,8 @@
 package com.tantuo.didicar;
 
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.util.DisplayMetrics;
 
 import com.baidu.mapapi.SDKInitializer;
@@ -8,9 +10,14 @@ import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.MapView;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
+import com.tantuo.didicar.fragment.ContentFragment;
+import com.tantuo.didicar.fragment.LeftMenuFragment;
 
 public class MainActivity extends SlidingFragmentActivity {
 
+
+    public static final String MAIN_CONTENT_TAG = "main_content_tag";
+    public static final String LEFTMENU_TAG = "leftmenu_tag";
     private MapView mMapView;
     private BaiduMap mBaiduMap;
 
@@ -30,10 +37,11 @@ public class MainActivity extends SlidingFragmentActivity {
         SlidingMenu slidingMenu = getSlidingMenu();
         slidingMenu.setSecondaryMenu(R.layout.activity_rightmenu);
         //设置SlidingMenu模式
-        slidingMenu.setMode(slidingMenu.LEFT_RIGHT);
+        slidingMenu.setMode(SlidingMenu.LEFT);
         slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
         slidingMenu.setFadeDegree(0.4f);
         slidingMenu.setFadeEnabled(true);
+
 
         DisplayMetrics displayMetricscs = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetricscs);
@@ -41,9 +49,25 @@ public class MainActivity extends SlidingFragmentActivity {
         int screeHeight = displayMetricscs.heightPixels;
         slidingMenu.setBehindOffset((int) (screeWidth*0.65));
 
+        initFragment();
+
 
         mMapView = (MapView) findViewById(R.id.bmapView);
         mBaiduMap = mMapView.getMap();
+
+
+    }
+
+    private void initFragment() {
+        //1.得到FragmentManger
+        FragmentManager fm = getSupportFragmentManager();
+        //2.开启事务
+        FragmentTransaction ft= fm.beginTransaction();
+        //3.替换
+        ft.replace(R.id.fl_main_content,new ContentFragment(), MAIN_CONTENT_TAG);//主页
+        ft.replace(R.id.fl_leftmenu, new LeftMenuFragment(), LEFTMENU_TAG);//左侧菜单
+        //4.提交
+        ft.commit();
 
 
     }

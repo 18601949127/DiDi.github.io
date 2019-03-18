@@ -3,15 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/logoColor"
+    android:id="@+id/fl_leftmenu"
     >
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="左侧边栏"
-        android:textColor="#ff0000"
-        android:layout_gravity="center"
-        android:scrollbarSize="25dp"/>
+
 
 </FrameLayout>
