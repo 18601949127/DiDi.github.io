@@ -18,6 +18,7 @@ public class MainActivity extends SlidingFragmentActivity {
 
     public static final String MAIN_CONTENT_TAG = "main_content_tag";
     public static final String LEFTMENU_TAG = "leftmenu_tag";
+
     private MapView mMapView;
     private BaiduMap mBaiduMap;
 
@@ -29,8 +30,22 @@ public class MainActivity extends SlidingFragmentActivity {
         //注意该方法要再setContentView方法之前实现
 
         SDKInitializer.initialize(getApplicationContext());
+
         setContentView(R.layout.activity_main);
 
+
+        initSlidingMenu();
+
+        initFragment();
+
+
+        mMapView = (MapView) findViewById(R.id.bmapView);
+        mBaiduMap = mMapView.getMap();
+
+
+    }
+
+    private void initSlidingMenu() {
         //添加左侧Sliding_Menu
         setBehindContentView(R.layout.activity_leftmenu);
         //添加右侧菜单 secondaryMenu
@@ -43,28 +58,21 @@ public class MainActivity extends SlidingFragmentActivity {
         slidingMenu.setFadeEnabled(true);
 
 
+        //得到slidingMenu在手机屏幕上面滑动的比例为0.35
         DisplayMetrics displayMetricscs = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetricscs);
         int screeWidth = displayMetricscs.widthPixels;
-        int screeHeight = displayMetricscs.heightPixels;
-        slidingMenu.setBehindOffset((int) (screeWidth*0.65));
-
-        initFragment();
-
-
-        mMapView = (MapView) findViewById(R.id.bmapView);
-        mBaiduMap = mMapView.getMap();
-
-
+        //int screeHeight = displayMetricscs.heightPixels;
+        slidingMenu.setBehindOffset((int) (screeWidth * 0.65));
     }
 
     private void initFragment() {
         //1.得到FragmentManger
         FragmentManager fm = getSupportFragmentManager();
         //2.开启事务
-        FragmentTransaction ft= fm.beginTransaction();
+        FragmentTransaction ft = fm.beginTransaction();
         //3.替换
-        ft.replace(R.id.fl_main_content,new ContentFragment(), MAIN_CONTENT_TAG);//主页
+        ft.replace(R.id.fl_main_content, new ContentFragment(), MAIN_CONTENT_TAG);//主页
         ft.replace(R.id.fl_leftmenu, new LeftMenuFragment(), LEFTMENU_TAG);//左侧菜单
         //4.提交
         ft.commit();

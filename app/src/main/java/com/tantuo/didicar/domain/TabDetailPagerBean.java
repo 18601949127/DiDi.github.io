@@ -67,7 +67,7 @@ public class TabDetailPagerBean {
          * commenturl : /client/user/newComment/147253
          * id : 147253
          * pubdate : 2015-10-19 07:18
-         * title : 市教委：中高考英语试卷结构不变
+         * title :
          * topimage : /static/images/2015/10/19/36/1053274969EORV.jpg
          * type : news
          * url : /static/html/2015/10/19/714C6E504A6F1B7869277C42.html
