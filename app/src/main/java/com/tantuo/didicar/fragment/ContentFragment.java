@@ -36,6 +36,9 @@ public class ContentFragment extends BaseMenuFragment {
     private RadioGroup rg_main;
 
 
+
+
+
     private ArrayList<BasePager> basePagers;
 
     @Override
@@ -81,8 +84,6 @@ public class ContentFragment extends BaseMenuFragment {
 
         //slidingMenu不可以滑动
         isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
-
-
 
 
     }

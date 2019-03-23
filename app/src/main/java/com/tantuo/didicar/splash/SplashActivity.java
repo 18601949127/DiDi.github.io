@@ -38,6 +38,7 @@ public class SplashActivity extends Activity {
                      */
                     Intent intent = new Intent(SplashActivity.this, SplashPicActivity.class);
                     startActivity(intent);
+                    finish();
                 }
             }, 4000);//3秒后执行Runnable中的run方法
 

@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
@@ -36,6 +35,7 @@ public class SplashPicActivity extends Activity {
                  */
                 Intent intent = new Intent(SplashPicActivity.this, MainActivity.class);
                 startActivity(intent);
+                finish();
 
             }
         }, 1000);// 1秒后执行Runnable中的run方法
