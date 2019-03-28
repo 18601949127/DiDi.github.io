@@ -40,6 +40,9 @@ public class BasePager {
         rootView = initView();
     }
 
+
+
+
     /**
      * 用于初始化rootview，并且加载子视图的FrameLayout
      * @return
@@ -56,8 +59,10 @@ public class BasePager {
         ib_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //2.把左侧菜单关闭
                 MainActivity mainActivity = (MainActivity) context;
-                mainActivity.getSlidingMenu().toggle();//关<->开
+                //toggle() 方法会让 slidingMenu开关切换
+                mainActivity.getSlidingMenu().toggle();
             }
         });
         return view;

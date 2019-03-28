@@ -76,8 +76,6 @@ public class MainActivity extends SlidingFragmentActivity {
         ft.replace(R.id.fl_leftmenu, new LeftMenuFragment(), LEFTMENU_TAG);//左侧菜单
         //4.提交
         ft.commit();
-
-
     }
 
     @Override
@@ -101,4 +99,20 @@ public class MainActivity extends SlidingFragmentActivity {
         mMapView.onPause();
     }
 
+    public LeftMenuFragment getleftMenuFragment() {
+        FragmentManager fm = getSupportFragmentManager();
+        LeftMenuFragment lf = (LeftMenuFragment) fm.findFragmentByTag(LEFTMENU_TAG);
+
+        return lf;
+    }
+
+
+    //由leftMenuFragment得到右侧的主界面ContentFragment
+    public ContentFragment getContentFragment() {
+        FragmentManager fm = getSupportFragmentManager();
+        ContentFragment cf = (ContentFragment) fm.findFragmentByTag(MAIN_CONTENT_TAG);
+
+        return cf;
+
+    }
 }

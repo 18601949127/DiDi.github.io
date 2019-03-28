@@ -1,5 +1,6 @@
 package com.tantuo.didicar.fragment;
 
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.RadioGroup;
 
@@ -46,7 +47,7 @@ public class ContentFragment extends BaseMenuFragment {
         LogUtil.i("正文视图被初始化");
 
 
-        View view = View.inflate(getActivity(), R.layout.content_fragment, null);
+        View view = View.inflate(context, R.layout.content_fragment, null);
 
 
         //view关联注入ontentFragment
@@ -60,11 +61,6 @@ public class ContentFragment extends BaseMenuFragment {
     @Override
     protected void initData() {
         super.initData();
-
-        //设置底部radio_button的默认选择
-        rg_main.check(R.id.rb_map);
-
-
         LogUtil.i("这里是正文");
 
         //初始化五个页面，并且放入集合中
@@ -75,20 +71,62 @@ public class ContentFragment extends BaseMenuFragment {
         basePagers.add(new GovaffairPager(context));
         basePagers.add(new SettingPager(context));
 
-        //viewPagerAdapter
+
+        //设置ViewPager的适配器
         viewpager.setAdapter(new ContentFragmentAdapter(basePagers));
 
-        //设置底部radio_button的默认选择
-        rg_main.check(R.id.rb_map);
+
+        //设置RadioGroup的选中状态改变的监听
         rg_main.setOnCheckedChangeListener(new MyOnCheckedChangeListener());
 
-        //slidingMenu不可以滑动
-        isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
+        //监听某个页面被选中，初始对应的页面的数据
+//        viewpager.addOnPageChangeListener(new MyOnPageChangeListener());
 
+        //设置默认选中首页
+        rg_main.check(R.id.rb_home);
+
+        basePagers.get(0).initData();
+        //设置模式SlidingMenu不可以滑动
+        isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
 
     }
 
+    class MyOnPageChangeListener implements ViewPager.OnPageChangeListener {
+
+        @Override
+        public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+        }
+
+        /**
+         * 当某个页面被选中的时候回调这个方法
+         * @param position 被选中页面的位置
+         */
+        @Override
+        public void onPageSelected(int position) {
+//            BasePager basePager = basePagers.get(position);
+            //调用被选中的页面的initData方法
+            basePagers.get(position).initData();
+        }
+
+        @Override
+        public void onPageScrollStateChanged(int state) {
+
+        }
+    }
+
+    public MapPager getMapPager() {
+        return (MapPager) basePagers.get(1);
+    }
+
+
+
+
     //实现点击屏幕下方Radiogroup切换不同ViewPager最重要的方法
+
+    /**
+     * 点击下方的按钮，切换不同的 contentFragment
+     */
     class MyOnCheckedChangeListener implements RadioGroup.OnCheckedChangeListener {
 
         @Override
