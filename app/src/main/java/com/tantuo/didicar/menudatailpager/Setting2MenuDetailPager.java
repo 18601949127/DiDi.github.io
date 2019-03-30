@@ -13,7 +13,7 @@ import com.tantuo.didicar.utils.LogUtil;
 /**
  * Author by TanTuo, WeiXin:86-18601949127,
  * Email:1991201740@qq.com
- * 作用：MapsMenuDetailPager
+ * 作用：CallCarMenuDetailPager
  */
 public class Setting2MenuDetailPager extends MenuDetaiBasePager {
     private TextView textView;
@@ -37,8 +37,8 @@ public class Setting2MenuDetailPager extends MenuDetaiBasePager {
     @Override
     public void initData() {
         super.initData();
-        textView.setText("打车详情页面内容3");
-        LogUtil.i("map3详情页面初始化");
+        textView.setText("slidingMenu第三行");
+        LogUtil.i("slidingMenu第三行");
 
     }
 }

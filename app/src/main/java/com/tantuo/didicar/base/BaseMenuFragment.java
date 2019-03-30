@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.tantuo.didicar.utils.LogUtil;
+
 public abstract class BaseMenuFragment extends Fragment {
 
     public Activity context; //得到包裹fragment的activity
@@ -39,6 +41,7 @@ public abstract class BaseMenuFragment extends Fragment {
 
     //请求联网数据，并且将数据绑定到Fragment里面
     protected void initData() {
+        LogUtil.i( "进入： 类:BaseMenuFragment -----方法:initData()---- ");
 
     }
 

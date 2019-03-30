@@ -10,10 +10,10 @@ import com.tantuo.didicar.R;
 import com.tantuo.didicar.adapter.ContentFragmentAdapter;
 import com.tantuo.didicar.base.BaseMenuFragment;
 import com.tantuo.didicar.base.BasePager;
+import com.tantuo.didicar.pager.CallCarPager;
 import com.tantuo.didicar.pager.CardServicePager;
 import com.tantuo.didicar.pager.GovaffairPager;
 import com.tantuo.didicar.pager.HomePager;
-import com.tantuo.didicar.pager.MapPager;
 import com.tantuo.didicar.pager.SettingPager;
 import com.tantuo.didicar.utils.LogUtil;
 import com.tantuo.didicar.view.NoScrollViewPager;
@@ -35,9 +35,6 @@ public class ContentFragment extends BaseMenuFragment {
     private NoScrollViewPager viewpager;
     @ViewInject(R.id.rg_main)
     private RadioGroup rg_main;
-
-
-
 
 
     private ArrayList<BasePager> basePagers;
@@ -65,8 +62,8 @@ public class ContentFragment extends BaseMenuFragment {
 
         //初始化五个页面，并且放入集合中
         basePagers = new ArrayList<>();
+        basePagers.add(new CallCarPager(context));
         basePagers.add(new HomePager(context));
-        basePagers.add(new MapPager(context));
         basePagers.add(new CardServicePager(context));
         basePagers.add(new GovaffairPager(context));
         basePagers.add(new SettingPager(context));
@@ -83,7 +80,7 @@ public class ContentFragment extends BaseMenuFragment {
 //        viewpager.addOnPageChangeListener(new MyOnPageChangeListener());
 
         //设置默认选中首页
-        rg_main.check(R.id.rb_home);
+        rg_main.check(R.id.rb_map);
 
         basePagers.get(0).initData();
         //设置模式SlidingMenu不可以滑动
@@ -100,10 +97,12 @@ public class ContentFragment extends BaseMenuFragment {
 
         /**
          * 当某个页面被选中的时候回调这个方法
+         *
          * @param position 被选中页面的位置
          */
         @Override
         public void onPageSelected(int position) {
+            LogUtil.i("进入： 类:MyOnPageChangeListener -----方法:onPageSelected()---- ");
 //            BasePager basePager = basePagers.get(position);
             //调用被选中的页面的initData方法
             basePagers.get(position).initData();
@@ -115,11 +114,15 @@ public class ContentFragment extends BaseMenuFragment {
         }
     }
 
-    public MapPager getMapPager() {
-        return (MapPager) basePagers.get(1);
+    /**
+     * getCallCarPager() 需要在点击打车界面的左侧slingMenu以后找到ContentFragment里面的打车页面
+     *
+     * @return CallCarPager
+     * 今天周六窗外的景色真好
+     */
+    public CallCarPager getCallCarPager() {
+        return (CallCarPager) basePagers.get(0);
     }
-
-
 
 
     //实现点击屏幕下方Radiogroup切换不同ViewPager最重要的方法
@@ -132,12 +135,12 @@ public class ContentFragment extends BaseMenuFragment {
         @Override
         public void onCheckedChanged(RadioGroup group, int checkedId) {
             switch (checkedId) {
-                case R.id.rb_home:
+                case R.id.rb_map:
                     viewpager.setCurrentItem(0, true);
                     //smoothScroll代表是否滑动渐入或者渐出 by:Tantuo
                     isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
                     break;
-                case R.id.rb_map:
+                case R.id.rb_home:
                     viewpager.setCurrentItem(1, true);
                     isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
                     break;

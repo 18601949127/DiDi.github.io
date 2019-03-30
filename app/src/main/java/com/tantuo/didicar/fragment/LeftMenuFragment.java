@@ -11,8 +11,8 @@ import android.widget.TextView;
 import com.tantuo.didicar.MainActivity;
 import com.tantuo.didicar.R;
 import com.tantuo.didicar.base.BaseMenuFragment;
-import com.tantuo.didicar.domain.MapPagerBean;
-import com.tantuo.didicar.pager.MapPager;
+import com.tantuo.didicar.domain.CallCarPagerBean;
+import com.tantuo.didicar.pager.CallCarPager;
 import com.tantuo.didicar.utils.DensityUtil;
 import com.tantuo.didicar.utils.LogUtil;
 
@@ -26,7 +26,7 @@ import java.util.List;
 
 public class LeftMenuFragment extends BaseMenuFragment {
 
-    private List<MapPagerBean.DataBean> data;
+    private List<CallCarPagerBean.DataBean> data;
     private ListView listView;
     private LeftmenuFragmentAdapter adapter;
 
@@ -38,7 +38,7 @@ public class LeftMenuFragment extends BaseMenuFragment {
 
         LogUtil.e("左侧菜单视图被初始化了");
         listView = new ListView(context);
-        listView.setPadding(0, DensityUtil.dip2px(context,40),0,0);
+        listView.setPadding(0, DensityUtil.dip2px(context, 40), 0, 0);
         listView.setDividerHeight(5);//设置分割线高度为0
         listView.setCacheColorHint(Color.RED);
 
@@ -59,17 +59,25 @@ public class LeftMenuFragment extends BaseMenuFragment {
                 //toggle() 方法会让 slidingMenu开关切换
                 mainActivity.getSlidingMenu().toggle();
 
-                //3.切换到对应的打车页面：
-                //swichPager(prePosition);
-                ContentFragment contentFragment = mainActivity.getContentFragment();
-                MapPager mapPager = contentFragment.getMapPager();
-                mapPager.swithPager(position);
+                //3.切换到对应的打车detailPager
+                switchLeftMenuDetailPager(prePosition);
 
 
             }
         });
 
         return listView;
+    }
+
+    /**
+     * 切换到对应的打车detailPager
+     * @param position
+     */
+    private void switchLeftMenuDetailPager(int position) {
+        MainActivity mainActivity = (MainActivity) context;
+        ContentFragment contentFragment = mainActivity.getContentFragment();
+        CallCarPager call_carPager = contentFragment.getCallCarPager();
+        call_carPager.swithCallCarDetailPager(position);
     }
 
     @Override
@@ -80,15 +88,17 @@ public class LeftMenuFragment extends BaseMenuFragment {
 
     }
 
-    public void setData(List<MapPagerBean.DataBean> data) {
-      this.data = data;
+    public void setData(List<CallCarPagerBean.DataBean> data) {
+        this.data = data;
         for (int i = 0; i < data.size(); i++) {
             LogUtil.i("数据是 " + data.get(i).getTitle());
-            LogUtil.i("data整体数据是"+ data.toString());
+            LogUtil.i("data整体数据是" + data.toString());
 
             adapter = new LeftmenuFragmentAdapter();
             listView.setAdapter(adapter);
 
+            //刚刚初始化LeftMenuFragment的时候也要默然点击LeftMenu第一行那样
+            switchLeftMenuDetailPager(0);
 
         }
     }
@@ -102,20 +112,21 @@ public class LeftMenuFragment extends BaseMenuFragment {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            TextView textView = (TextView) View.inflate(context, R.layout.item_leftmenu,null);
+            TextView textView = (TextView) View.inflate(context, R.layout.item_leftmenu, null);
             textView.setText(data.get(position).getTitle());
-            if(position==prePosition){
+            if (position == prePosition) {
                 //设置红色
                 textView.setEnabled(true);
 
-            }else{
+            } else {
 
                 textView.setEnabled(false);
             }
 
-            textView.setEnabled(position==prePosition);
+            textView.setEnabled(position == prePosition);
             return textView;
         }
+
         @Override
         public Object getItem(int position) {
             return null;

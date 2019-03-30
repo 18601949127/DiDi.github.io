@@ -12,7 +12,13 @@ import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 import com.tantuo.didicar.fragment.ContentFragment;
 import com.tantuo.didicar.fragment.LeftMenuFragment;
+import com.tantuo.didicar.utils.LogUtil;
 
+/**
+ * Author by TanTuo, WeiXin:86-18601949127,
+ * Email:1991201740@qq.com
+ * 作用：MainActivity 进入主界面
+ */
 public class MainActivity extends SlidingFragmentActivity {
 
 
@@ -46,6 +52,7 @@ public class MainActivity extends SlidingFragmentActivity {
     }
 
     private void initSlidingMenu() {
+        LogUtil.i("进入： 类:MainActivity -----方法:initSlidingMenu()---- ");
         //添加左侧Sliding_Menu
         setBehindContentView(R.layout.activity_leftmenu);
         //添加右侧菜单 secondaryMenu
@@ -100,6 +107,7 @@ public class MainActivity extends SlidingFragmentActivity {
     }
 
     public LeftMenuFragment getleftMenuFragment() {
+        LogUtil.i("进入： 类:MainActivity -----方法:getleftMenuFragment()---- ");
         FragmentManager fm = getSupportFragmentManager();
         LeftMenuFragment lf = (LeftMenuFragment) fm.findFragmentByTag(LEFTMENU_TAG);
 
@@ -109,6 +117,7 @@ public class MainActivity extends SlidingFragmentActivity {
 
     //由leftMenuFragment得到右侧的主界面ContentFragment
     public ContentFragment getContentFragment() {
+        LogUtil.i("进入： 类:MainActivity -----方法:getContentFragment()---- ");
         FragmentManager fm = getSupportFragmentManager();
         ContentFragment cf = (ContentFragment) fm.findFragmentByTag(MAIN_CONTENT_TAG);
 

@@ -28,7 +28,7 @@ public class CardServicePager extends BasePager {
         super.initData();
         LogUtil.i("服务启动..");
         //1.设置标题
-        tv_title.setText("2323423");
+        tv_title.setText("身份验证");
         //2.联网请求，得到数据，创建视图
         TextView textView = new TextView(context);
         textView.setGravity(Gravity.CENTER);
@@ -37,7 +37,7 @@ public class CardServicePager extends BasePager {
         //3.把子视图添加到BasePager的FrameLayout中
         fl_content.addView(textView);
         //4.绑定数据
-        textView.setText("234234234234");
+        textView.setText("身份验证界面");
 
     }
 

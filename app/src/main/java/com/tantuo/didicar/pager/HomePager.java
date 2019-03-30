@@ -36,7 +36,7 @@ public class HomePager extends BasePager {
         //3.把子视图添加到BasePager的FrameLayout中
         fl_content.addView(textView);
         //4.绑定数据
-        textView.setText("werwef33");
+        textView.setText("主页面的数据");
 
     }
 }

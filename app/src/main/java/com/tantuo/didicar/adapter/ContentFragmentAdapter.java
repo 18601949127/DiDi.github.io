@@ -5,13 +5,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.tantuo.didicar.base.BasePager;
+import com.tantuo.didicar.utils.LogUtil;
 
 import java.util.ArrayList;
 
 /**
  * Author by TanTuo, WeiXin:86-18601949127,
  * Email:1991201740@qq.com
- * 作用：ContentFragmentAdapter 中间界面适配器
+ * 作用：ContentFragmentAdapter 屏幕正中央的ViewPager
  */
 
 public class ContentFragmentAdapter extends PagerAdapter {
@@ -44,12 +45,14 @@ public class ContentFragmentAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
+        LogUtil.i( "进入： 类:ContentFragmentAdapter -----方法:isViewFromObject()---- ");
         return view == object;
     }
 
 
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
+        LogUtil.i( "进入： 类:ContentFragmentAdapter -----方法:destroyItem()---- ");
         container.removeView((View) object);
     }
 }

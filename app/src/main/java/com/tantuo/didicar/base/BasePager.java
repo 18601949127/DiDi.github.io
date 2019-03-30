@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.tantuo.didicar.MainActivity;
 import com.tantuo.didicar.R;
+import com.tantuo.didicar.utils.LogUtil;
 
 /**
  * Author by TanTuo, WeiXin:86-18601949127,
@@ -36,7 +37,7 @@ public class BasePager {
 
     public BasePager(Context context) {
         this.context = context;
-        //构造方法一执行，视图就被初始化了
+        //构造方法一执行，视图就被初始化
         rootView = initView();
     }
 
@@ -49,6 +50,7 @@ public class BasePager {
      */
 
     private View initView() {
+        LogUtil.i( "进入： 类:BasePager -----方法:initView()---- ");
         //基类的页面
         View view = View.inflate(context, R.layout.base_pager,null);
         tv_title = (TextView) view.findViewById(R.id.tv_title);
@@ -69,10 +71,10 @@ public class BasePager {
     }
 
     /**
-     * 初始化数据;当孩子需要初始化数据;或者绑定数据;联网请求数据并且绑定的时候，重写该方法
+     * 初始化数据;当子页面需要初始化数据;或者绑定数据;联网请求数据并且绑定的时候，重写该方法
      */
     public void initData(){
+        LogUtil.i( "进入： 类:BasePager -----方法:initData()---- ");
 
     }
 }
-
