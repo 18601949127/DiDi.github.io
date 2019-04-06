@@ -71,6 +71,7 @@ public class LeftMenuFragment extends BaseMenuFragment {
 
     /**
      * 切换到对应的打车detailPager
+     *
      * @param position
      */
     private void switchLeftMenuDetailPager(int position) {

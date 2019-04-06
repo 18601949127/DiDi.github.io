@@ -3,8 +3,6 @@ package com.tantuo.didicar.base;
 import android.content.Context;
 import android.view.View;
 
-import com.tantuo.didicar.utils.LogUtil;
-
 /**
  * Author by TanTuo, WeiXin:86-18601949127,
  * Email:1991201740@qq.com
@@ -41,7 +39,6 @@ public abstract class MenuDetaiBasePager {
      * 子页面需要重新绑定数据，联网请求数据等的时候，重写该方法
      */
     public void initData() {
-        LogUtil.i("进入： 类:MenuDetaiBasePager -----方法:initData()---- ");
 
     }
 }

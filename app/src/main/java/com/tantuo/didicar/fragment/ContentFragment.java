@@ -145,15 +145,15 @@ public class ContentFragment extends BaseMenuFragment {
                     isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
                     break;
                 case R.id.rb_cardservice:
-                    viewpager.setCurrentItem(2, true);
+                    viewpager.setCurrentItem(2, false);
                     isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
                     break;
                 case R.id.rb_govaffair:
-                    viewpager.setCurrentItem(3, true);
+                    viewpager.setCurrentItem(3, false);
                     isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
                     break;
                 case R.id.rb_setting:
-                    viewpager.setCurrentItem(4, true);
+                    viewpager.setCurrentItem(4, false);
                     isEnableSlidingMenu(SlidingMenu.TOUCHMODE_NONE);
                     break;
             }

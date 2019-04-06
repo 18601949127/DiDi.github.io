@@ -17,7 +17,7 @@ public class Constants {
     /**
      * 滴滴打车的网络地址
      */
-    public static final String MAP_PAGER_URL = BASE_URL+"/static/api/didicar/categories.json";
+    public static final String CALL_CAR_PAGER_URL = BASE_URL+"/static/api/didicar/categories.json";
 
 
 }

@@ -74,7 +74,6 @@ public class BasePager {
      * 初始化数据;当子页面需要初始化数据;或者绑定数据;联网请求数据并且绑定的时候，重写该方法
      */
     public void initData(){
-        LogUtil.i( "进入： 类:BasePager -----方法:initData()---- ");
 
     }
 }

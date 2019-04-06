@@ -25,7 +25,7 @@ public class GovaffairPager extends BasePager {
     @Override
     public void initData() {
         super.initData();
-        LogUtil.i("合规数据初始化..");
+        LogUtil.i("合规按钮数据初始化..");
         //1.设置标题
         tv_title.setText("合规界面");
         //2.联网请求，得到数据，创建视图
@@ -36,7 +36,7 @@ public class GovaffairPager extends BasePager {
         //3.把子视图添加到BasePager的FrameLayout中
         fl_content.addView(textView);
         //4.绑定数据
-        textView.setText("合规数据初始化");
+        textView.setText("合规数据pager初始化");
 
     }
 }

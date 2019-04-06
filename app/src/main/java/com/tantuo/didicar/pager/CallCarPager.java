@@ -2,6 +2,7 @@ package com.tantuo.didicar.pager;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
@@ -17,6 +18,7 @@ import com.tantuo.didicar.menudatailpager.Setting1MenuDetailPager;
 import com.tantuo.didicar.menudatailpager.Setting2MenuDetailPager;
 import com.tantuo.didicar.menudatailpager.Setting3MenuDetailPager;
 import com.tantuo.didicar.menudatailpager.Setting4MenuDetailPager;
+import com.tantuo.didicar.utils.CacheUtils;
 import com.tantuo.didicar.utils.Constants;
 import com.tantuo.didicar.utils.LogUtil;
 
@@ -63,9 +65,19 @@ public class CallCarPager extends BasePager {
         textView.setTextColor(Color.RED);
         textView.setTextSize(25);
 
-        textView.setText("这里是滴滴打车主页面");
+
         fl_content.addView(textView);
 
+        textView.setText("这里是滴滴打车主页面");
+
+        //缓存数据
+        String saveJson = CacheUtils.getString(context, Constants.CALL_CAR_PAGER_URL);
+        LogUtil.i("-----"+saveJson);
+
+        if (!TextUtils.isEmpty(saveJson)) {
+            //如果已经有过一次联网请求并且把json数据保存到了sharedPreferences,则取出直接使用就行
+            //processedData(saveJson);
+        }
 
         //使用xUtil3请求数据
         getDataFromNet();
@@ -75,13 +87,15 @@ public class CallCarPager extends BasePager {
 
     private void getDataFromNet() {
 
-        RequestParams params = new RequestParams(Constants.MAP_PAGER_URL);
+        RequestParams params = new RequestParams(Constants.CALL_CAR_PAGER_URL);
         x.http().get(params, new Callback.CommonCallback<String>() {
             @Override
             public void onSuccess(String result) {
                 LogUtil.i("使用xutils3联网请求数据成功" + result);
                 textView.setText("使用xutils3联网请求数据成功");
 
+                //缓存数据
+                CacheUtils.putString(context, Constants.CALL_CAR_PAGER_URL, result);
                 //得到返回的Json 数据以后进行解析 by:tantuo
                 processedData(result);
             }
@@ -117,7 +131,6 @@ public class CallCarPager extends BasePager {
      * @param result
      */
     private void processedData(String result) {
-        LogUtil.i("进入： 类:CallCarPager -----方法:processedData()---- ");
         CallCarPagerBean bean = parseJson(result);
         String title = bean.getData().get(0).getChildren().get(1).getTitle();
         LogUtil.i("第0个tittle是" + title);
@@ -130,15 +143,13 @@ public class CallCarPager extends BasePager {
 
         //下面完成 CallCarPager下的点击左侧滑动菜单以后对应的各个detailPager
         detailBasePagers = new ArrayList<MenuDetaiBasePager>();
-        detailBasePagers.add(new CallCarMenuDetailPager(context));
+        detailBasePagers.add(new CallCarMenuDetailPager(context,data.get(0)));
         detailBasePagers.add(new Setting1MenuDetailPager(context));
         detailBasePagers.add(new Setting2MenuDetailPager(context));
         detailBasePagers.add(new Setting3MenuDetailPager(context));
         detailBasePagers.add(new Setting4MenuDetailPager(context));
 
         leftMenuFragment.setData(data);
-
-
 
 
     }

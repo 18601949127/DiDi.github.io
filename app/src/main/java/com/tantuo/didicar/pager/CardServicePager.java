@@ -26,7 +26,7 @@ public class CardServicePager extends BasePager {
     @Override
     public void initData() {
         super.initData();
-        LogUtil.i("服务启动..");
+        LogUtil.i("服务按钮界面初始化了..");
         //1.设置标题
         tv_title.setText("身份验证");
         //2.联网请求，得到数据，创建视图
@@ -37,7 +37,7 @@ public class CardServicePager extends BasePager {
         //3.把子视图添加到BasePager的FrameLayout中
         fl_content.addView(textView);
         //4.绑定数据
-        textView.setText("身份验证界面");
+        textView.setText("身份验pager证界面");
 
     }
 

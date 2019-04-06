@@ -25,7 +25,7 @@ public class HomePager extends BasePager {
     @Override
     public void initData() {
         super.initData();
-        LogUtil.i("主页面初始化..");
+        LogUtil.i("home按钮界面初始化..");
         //1.设置标题
         tv_title.setText("主页面");
         //2.联网请求，得到数据，创建视图
@@ -36,7 +36,7 @@ public class HomePager extends BasePager {
         //3.把子视图添加到BasePager的FrameLayout中
         fl_content.addView(textView);
         //4.绑定数据
-        textView.setText("主页面的数据");
+        textView.setText("主页面按钮的数据");
 
     }
 }

@@ -11,34 +11,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb3eb73e-a52c-4856-9ecb-b710cc32ae6e" name="Default Changelist" comment="Extract 抽出两个 Adapter">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/ShunfengcheTabPager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingMenu_library/SlidingMenu_library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingMenu_library/SlidingMenu_library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingMenu_library/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingMenu_library/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/adapter/ContentFragmentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/adapter/ContentFragmentAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseMenuFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseMenuFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/MenuDetaiBasePager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/MenuDetaiBasePager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/MapPagerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/CallCarPagerBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/ContentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/ContentFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/LeftMenuFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/LeftMenuFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/MapsMenuDetailPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting1MenuDetailPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting1MenuDetailPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting2MenuDetailPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting2MenuDetailPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting3MenuDetailPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting3MenuDetailPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CardServicePager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CardServicePager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/GovaffairPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/GovaffairPager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/HomePager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/HomePager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/MapPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/SettingPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/SettingPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/LogUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/titlebar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/titlebar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_tab_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_tab_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/img_menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/title_red_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/title_red_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,52 +85,54 @@
     <session id="-122482727">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="animator" value="1" />
-          <entry key="gradle" value="22" />
-          <entry key="java" value="194" />
-          <entry key="png" value="14" />
+          <entry key="gradle" value="24" />
+          <entry key="java" value="364" />
+          <entry key="png" value="33" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="143" />
+          <entry key="xml" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="22" />
-          <entry key="Image" value="14" />
-          <entry key="JAVA" value="194" />
+          <entry key="Groovy" value="24" />
+          <entry key="Image" value="33" />
+          <entry key="JAVA" value="364" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="144" />
+          <entry key="XML" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="68" />
-          <entry key="gradle" value="98" />
-          <entry key="java" value="9765" />
-          <entry key="txt" value="177" />
-          <entry key="xml" value="1856" />
+          <entry key="dummy" value="129" />
+          <entry key="gradle" value="131" />
+          <entry key="java" value="13407" />
+          <entry key="txt" value="182" />
+          <entry key="xml" value="2516" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="98" />
-          <entry key="JAVA" value="9765" />
-          <entry key="PLAIN_TEXT" value="245" />
-          <entry key="XML" value="1856" />
+          <entry key="Groovy" value="131" />
+          <entry key="JAVA" value="13407" />
+          <entry key="PLAIN_TEXT" value="311" />
+          <entry key="XML" value="2516" />
         </counts>
       </usages-collector>
     </session>
@@ -130,74 +142,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager9.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="31" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/ContentFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="973">
-              <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3249#3250#0" expanded="true" />
-                <element signature="e#3304#3305#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="277">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+            <state relative-caret-position="562">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="81" column="60" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="60" />
+            <state relative-caret-position="456">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1053">
-              <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1276#1277#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="424">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_fragment.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="386">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/LeftMenuFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <element signature="e#3043#3044#0" expanded="true" />
-                <element signature="e#3085#3086#0" expanded="true" />
-                <element signature="e#3694#3695#0" expanded="true" />
-                <element signature="e#3729#3730#0" expanded="true" />
-                <element signature="e#3794#3795#0" expanded="true" />
-                <element signature="e#3826#3827#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-65">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -207,10 +237,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
-        <option value="layoutResourceFile_vertical" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -223,6 +253,10 @@
       <find>mapPager</find>
       <find>swithPager</find>
       <find>ib</find>
+      <find>MAP_PAGER</find>
+      <find>beijingnews</find>
+      <find>atguigu</find>
+      <find>MAP_PAGER_URL</find>
     </findStrings>
     <replaceStrings>
       <replace>CallCarPag</replace>
@@ -231,6 +265,11 @@
       <replace>CallCarMenuDetailPager</replace>
       <replace>call_carPager</replace>
       <replace>swithCallCarDetailPager</replace>
+      <replace>CALL_CAR_PAGER</replace>
+      <replace>DiDiCallCar</replace>
+      <replace>didicarl</replace>
+      <replace>didicar</replace>
+      <replace>CALL_CAR_PAGER_URL</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app</dir>
@@ -248,7 +287,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1" />
+        <entry key="$PROJECT_DIR$" value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -2908,10 +2947,25 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.3.2/e355a352f542faddb87dc27b5fbb8aeecb90d2a9/gradle-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.3.2/ad5c66e6c3bff3c8abdc6df3f005213a3f95c8e/builder-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/crash/26.3.2/800c2478705ab205cd5ff266f39e25b6a7330354/crash-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-gradle-api/26.3.2/75364c567f51b02d536f5828865c99701a33d040/lint-gradle-api-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-compiler-common/3.3.2/471540f7088f7099e4578e602b97a05b29f0a519/databinding-compiler-common-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/2.0.0-deprecated-use-gradle-api/f18536c1fe08673c69e869be170759616a9df16/transform-api-2.0.0-deprecated-use-gradle-api-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-analysis-6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/6.0.3/1ebac416b8402b16e02a470f41e73af880d0db0f/proguard-gradle-6.0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build.jetifier/jetifier-processor/1.0.0-beta02/5b8f86fea035328fc9e8c660773037a3401ce25f/jetifier-processor-1.0.0-beta02-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/3.3.2/64f31844df0a878c316eadf6a449315f30f69c2a/builder-model-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/3.3.2/49719fad3715cbb479fab03fc15961e8f0a1db75/builder-test-api-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/26.3.2/7c87f1d78a99c8fa546989c79dac8938a2c94e27/sdklib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/26.3.2/52b0195e9485dc7e5913aa16e17d771e3cc93d81/sdk-common-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/26.3.2/a95a29b7b5e5e21543071ab8d75463ace2c93f2c/manifest-merger-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/26.3.2/cc3e10c9f8b5dd1657a2b2ee10412047601145d1/protos-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/26.3.2/735cf3d93771e0ffd37b54582b08c9fb4b27260d/shared-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/26.3.2/daf3c910804d919594e9f8fc940f4a1bd0285c1c/tracker-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/3.3.2/8df6230b477db461d93e69c29c5446c2204d8c7f/apksig-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apkzlib/3.3.2/2251e9d8f3d27f9356745389cdb12b0654285a39/apkzlib-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/1b2a0925ff06220c0261b6fd468183cd9e9a9a47/javawriter-2.5.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-tree-6.0-sources.jar" />
@@ -2920,6 +2974,9 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.2.0/a1a8e178d7813bb9596ee4e3d5e07b90ebe660af/fastutil-7.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.9/d965219b87f79e81b07116d451e684ab2f3acc27/jopt-simple-4.9-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1/19c6d8dee6803c520d855ff7e8a8c3d97f1271ec/json-simple-1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/3.3.2/686e4f327792a66fbb3f6fc96e0980f577cf8a9f/gradle-api-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.3.2/cc8b8de74eaad06551f597bc5d78f4c9aba7637e/databinding-common-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/3.3.2/7a83dd48bd51cab2db28adb19838fc4aed0adfc3/baseLibrary-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/e836b2a7348320a86c3bbd91a032486798e6ab98/antlr4-4.5.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/77979eaa98f90806f984155f44f63cc1fb60ac25/juniversalchardet-1.0.3-sources.jar" />
@@ -2929,11 +2986,18 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value/1.5.2/e96b1f4a9e6630a405434fca857c6b8f777163cf/auto-value-1.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.4.0/6d5f8e6d209c309d9ef3e30aa81135ee94cc7d49/protobuf-java-util-3.4.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6/3dcf8ba7582eeac3b67ed5155ee3659e16c8dadc/jdom2-2.0.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/26.3.2/6f2358099bf54d1bdc1c5f5114c5459465f3e4ef/annotations-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/26.3.2/c6fa26f2602f5741caae1ba42346c58b6b42fd/ddmlib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/26.3.2/693e1b39ecb8dad82e6d505f75376f37de1c626/layoutlib-api-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/26.3.2/cc32c916373d3c201f9d39645f7c0eb85d26fae8/dvlib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/repository/26.3.2/7199d047c512acd79f1f904984d491928a85786/repository-26.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.2/ca23fd61a082eab682fc0ffd29e37d09eab07180/httpmime-4.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.56/118b4633c59394749b2b2f278138beb31c930663/bcpkix-jdk15on-1.56-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/a30e058efd57c50515227c894abed1db20edb2b5/kotlin-reflect-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/26.3.2/fe9c103ae3036eb674b61d745086315cf796fce0/common-26.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/309cd2cff7260e465792fda3dcbb063b730d8050/kxml2-2.3.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.activation/javax.activation/1.2.0/5b034823866d38f38f02bdad7ed8a14e650c61b6/javax.activation-1.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.12/1fdd1a2fed15cdf08780ed564279c0ddbff46419/commons-compress-1.12-sources.jar" />
@@ -2942,6 +3006,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.56/93c7b191596378df51c31b7d8717f71b0aeee53c/bcprov-jdk15on-1.56-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/26.0-jre/2e35b51c759ae1a6edbb967b65c525105536d382/guava-26.0-jre-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.21/7c5bbe1b5e11cf9098d3bc3eddf97e8ed8f4e94/kotlin-stdlib-jdk8-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/2.2.11/57f27d326da0d4eddc4077933a4cc77cb50002d2/jaxb-core-2.2.11-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.staxex/stax-ex/1.7.7/555d23df1be863aeda3846afcb76444fa17880d2/stax-ex-1.7.7-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.13/7e43a54348e59360ebcaa73d34f0ecb122f1c741/FastInfoset-1.2.13-sources.jar" />
@@ -2953,9 +3018,12 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.2.0/a8cd7823aa1dcd2fd6677c0c5988fdde9d1fb0a3/error_prone_annotations-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/dcd31de68a90e41e336f6b7afce0d39285c433d7/j2objc-annotations-1.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/886474da3f761d39fcbb723d97ecc5089e731f42/animal-sniffer-annotations-1.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/b8815e48fb45e94821287365bd9ce8623f459ac7/kotlin-stdlib-1.3.21-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/93dd94ae3e45cbde664abacd9d4c9b1b99f34201/kotlin-stdlib-jdk7-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.12-b140109.1041/d59f43002d3d07c6adaaeedd93e7944c273821d2/jaxb-api-2.2.12-b140109.1041-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.2.11/7745afc4dcc863b724f4a21fb3fc517cd5aaf891/txw2-2.2.11-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/2.21/5d42dda44aa68ff87756e93ae0042cd66d2daa78/istack-commons-runtime-2.21-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.3.2/362925d001bd44692fce774f957cfe80522fdbd0/gradle-3.3.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.3.2/3339f921baa1e0dd4656effb03146db9db227ee/builder-3.3.2.jar" />
@@ -3048,10 +3116,25 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.3.2/e355a352f542faddb87dc27b5fbb8aeecb90d2a9/gradle-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.3.2/ad5c66e6c3bff3c8abdc6df3f005213a3f95c8e/builder-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/crash/26.3.2/800c2478705ab205cd5ff266f39e25b6a7330354/crash-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-gradle-api/26.3.2/75364c567f51b02d536f5828865c99701a33d040/lint-gradle-api-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-compiler-common/3.3.2/471540f7088f7099e4578e602b97a05b29f0a519/databinding-compiler-common-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/2.0.0-deprecated-use-gradle-api/f18536c1fe08673c69e869be170759616a9df16/transform-api-2.0.0-deprecated-use-gradle-api-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-analysis-6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/6.0.3/1ebac416b8402b16e02a470f41e73af880d0db0f/proguard-gradle-6.0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build.jetifier/jetifier-processor/1.0.0-beta02/5b8f86fea035328fc9e8c660773037a3401ce25f/jetifier-processor-1.0.0-beta02-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/3.3.2/64f31844df0a878c316eadf6a449315f30f69c2a/builder-model-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/3.3.2/49719fad3715cbb479fab03fc15961e8f0a1db75/builder-test-api-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/26.3.2/7c87f1d78a99c8fa546989c79dac8938a2c94e27/sdklib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/26.3.2/52b0195e9485dc7e5913aa16e17d771e3cc93d81/sdk-common-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/26.3.2/a95a29b7b5e5e21543071ab8d75463ace2c93f2c/manifest-merger-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/26.3.2/cc3e10c9f8b5dd1657a2b2ee10412047601145d1/protos-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/26.3.2/735cf3d93771e0ffd37b54582b08c9fb4b27260d/shared-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/26.3.2/daf3c910804d919594e9f8fc940f4a1bd0285c1c/tracker-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/3.3.2/8df6230b477db461d93e69c29c5446c2204d8c7f/apksig-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apkzlib/3.3.2/2251e9d8f3d27f9356745389cdb12b0654285a39/apkzlib-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/1b2a0925ff06220c0261b6fd468183cd9e9a9a47/javawriter-2.5.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-tree-6.0-sources.jar" />
@@ -3060,6 +3143,9 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.2.0/a1a8e178d7813bb9596ee4e3d5e07b90ebe660af/fastutil-7.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.9/d965219b87f79e81b07116d451e684ab2f3acc27/jopt-simple-4.9-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1/19c6d8dee6803c520d855ff7e8a8c3d97f1271ec/json-simple-1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/3.3.2/686e4f327792a66fbb3f6fc96e0980f577cf8a9f/gradle-api-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.3.2/cc8b8de74eaad06551f597bc5d78f4c9aba7637e/databinding-common-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/3.3.2/7a83dd48bd51cab2db28adb19838fc4aed0adfc3/baseLibrary-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/e836b2a7348320a86c3bbd91a032486798e6ab98/antlr4-4.5.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/77979eaa98f90806f984155f44f63cc1fb60ac25/juniversalchardet-1.0.3-sources.jar" />
@@ -3069,11 +3155,18 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value/1.5.2/e96b1f4a9e6630a405434fca857c6b8f777163cf/auto-value-1.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.4.0/6d5f8e6d209c309d9ef3e30aa81135ee94cc7d49/protobuf-java-util-3.4.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6/3dcf8ba7582eeac3b67ed5155ee3659e16c8dadc/jdom2-2.0.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/26.3.2/6f2358099bf54d1bdc1c5f5114c5459465f3e4ef/annotations-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/26.3.2/c6fa26f2602f5741caae1ba42346c58b6b42fd/ddmlib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/26.3.2/693e1b39ecb8dad82e6d505f75376f37de1c626/layoutlib-api-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/26.3.2/cc32c916373d3c201f9d39645f7c0eb85d26fae8/dvlib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/repository/26.3.2/7199d047c512acd79f1f904984d491928a85786/repository-26.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.2/ca23fd61a082eab682fc0ffd29e37d09eab07180/httpmime-4.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.56/118b4633c59394749b2b2f278138beb31c930663/bcpkix-jdk15on-1.56-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/a30e058efd57c50515227c894abed1db20edb2b5/kotlin-reflect-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/26.3.2/fe9c103ae3036eb674b61d745086315cf796fce0/common-26.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/309cd2cff7260e465792fda3dcbb063b730d8050/kxml2-2.3.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.activation/javax.activation/1.2.0/5b034823866d38f38f02bdad7ed8a14e650c61b6/javax.activation-1.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.12/1fdd1a2fed15cdf08780ed564279c0ddbff46419/commons-compress-1.12-sources.jar" />
@@ -3082,6 +3175,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.56/93c7b191596378df51c31b7d8717f71b0aeee53c/bcprov-jdk15on-1.56-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/26.0-jre/2e35b51c759ae1a6edbb967b65c525105536d382/guava-26.0-jre-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.21/7c5bbe1b5e11cf9098d3bc3eddf97e8ed8f4e94/kotlin-stdlib-jdk8-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/2.2.11/57f27d326da0d4eddc4077933a4cc77cb50002d2/jaxb-core-2.2.11-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.staxex/stax-ex/1.7.7/555d23df1be863aeda3846afcb76444fa17880d2/stax-ex-1.7.7-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.13/7e43a54348e59360ebcaa73d34f0ecb122f1c741/FastInfoset-1.2.13-sources.jar" />
@@ -3093,9 +3187,12 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.2.0/a8cd7823aa1dcd2fd6677c0c5988fdde9d1fb0a3/error_prone_annotations-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/dcd31de68a90e41e336f6b7afce0d39285c433d7/j2objc-annotations-1.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/886474da3f761d39fcbb723d97ecc5089e731f42/animal-sniffer-annotations-1.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/b8815e48fb45e94821287365bd9ce8623f459ac7/kotlin-stdlib-1.3.21-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/93dd94ae3e45cbde664abacd9d4c9b1b99f34201/kotlin-stdlib-jdk7-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.12-b140109.1041/d59f43002d3d07c6adaaeedd93e7944c273821d2/jaxb-api-2.2.12-b140109.1041-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.2.11/7745afc4dcc863b724f4a21fb3fc517cd5aaf891/txw2-2.2.11-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/2.21/5d42dda44aa68ff87756e93ae0042cd66d2daa78/istack-commons-runtime-2.21-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.3.2/362925d001bd44692fce774f957cfe80522fdbd0/gradle-3.3.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.3.2/3339f921baa1e0dd4656effb03146db9db227ee/builder-3.3.2.jar" />
@@ -3188,10 +3285,25 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.3.2/e355a352f542faddb87dc27b5fbb8aeecb90d2a9/gradle-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.3.2/ad5c66e6c3bff3c8abdc6df3f005213a3f95c8e/builder-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/crash/26.3.2/800c2478705ab205cd5ff266f39e25b6a7330354/crash-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-gradle-api/26.3.2/75364c567f51b02d536f5828865c99701a33d040/lint-gradle-api-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-compiler-common/3.3.2/471540f7088f7099e4578e602b97a05b29f0a519/databinding-compiler-common-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/2.0.0-deprecated-use-gradle-api/f18536c1fe08673c69e869be170759616a9df16/transform-api-2.0.0-deprecated-use-gradle-api-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-analysis-6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/6.0.3/1ebac416b8402b16e02a470f41e73af880d0db0f/proguard-gradle-6.0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build.jetifier/jetifier-processor/1.0.0-beta02/5b8f86fea035328fc9e8c660773037a3401ce25f/jetifier-processor-1.0.0-beta02-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/3.3.2/64f31844df0a878c316eadf6a449315f30f69c2a/builder-model-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/3.3.2/49719fad3715cbb479fab03fc15961e8f0a1db75/builder-test-api-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/26.3.2/7c87f1d78a99c8fa546989c79dac8938a2c94e27/sdklib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/26.3.2/52b0195e9485dc7e5913aa16e17d771e3cc93d81/sdk-common-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/26.3.2/a95a29b7b5e5e21543071ab8d75463ace2c93f2c/manifest-merger-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/26.3.2/cc3e10c9f8b5dd1657a2b2ee10412047601145d1/protos-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/26.3.2/735cf3d93771e0ffd37b54582b08c9fb4b27260d/shared-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/26.3.2/daf3c910804d919594e9f8fc940f4a1bd0285c1c/tracker-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/3.3.2/8df6230b477db461d93e69c29c5446c2204d8c7f/apksig-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/apkzlib/3.3.2/2251e9d8f3d27f9356745389cdb12b0654285a39/apkzlib-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/1b2a0925ff06220c0261b6fd468183cd9e9a9a47/javawriter-2.5.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-6.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.0/66e3ec9f4ff0d70713868456142040111cc201c/asm-tree-6.0-sources.jar" />
@@ -3200,6 +3312,9 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.2.0/a1a8e178d7813bb9596ee4e3d5e07b90ebe660af/fastutil-7.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.9/d965219b87f79e81b07116d451e684ab2f3acc27/jopt-simple-4.9-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1/19c6d8dee6803c520d855ff7e8a8c3d97f1271ec/json-simple-1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/3.3.2/686e4f327792a66fbb3f6fc96e0980f577cf8a9f/gradle-api-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.3.2/cc8b8de74eaad06551f597bc5d78f4c9aba7637e/databinding-common-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/3.3.2/7a83dd48bd51cab2db28adb19838fc4aed0adfc3/baseLibrary-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/e836b2a7348320a86c3bbd91a032486798e6ab98/antlr4-4.5.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/77979eaa98f90806f984155f44f63cc1fb60ac25/juniversalchardet-1.0.3-sources.jar" />
@@ -3209,11 +3324,18 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value/1.5.2/e96b1f4a9e6630a405434fca857c6b8f777163cf/auto-value-1.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.4.0/6d5f8e6d209c309d9ef3e30aa81135ee94cc7d49/protobuf-java-util-3.4.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6/3dcf8ba7582eeac3b67ed5155ee3659e16c8dadc/jdom2-2.0.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/26.3.2/6f2358099bf54d1bdc1c5f5114c5459465f3e4ef/annotations-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/26.3.2/c6fa26f2602f5741caae1ba42346c58b6b42fd/ddmlib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/26.3.2/693e1b39ecb8dad82e6d505f75376f37de1c626/layoutlib-api-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/26.3.2/cc32c916373d3c201f9d39645f7c0eb85d26fae8/dvlib-26.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/repository/26.3.2/7199d047c512acd79f1f904984d491928a85786/repository-26.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.2/ca23fd61a082eab682fc0ffd29e37d09eab07180/httpmime-4.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.56/118b4633c59394749b2b2f278138beb31c930663/bcpkix-jdk15on-1.56-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/a30e058efd57c50515227c894abed1db20edb2b5/kotlin-reflect-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.4.0/c57c9f6bcbdb783260d00b80c455d82a6a8b02db/protobuf-java-3.4.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/26.3.2/fe9c103ae3036eb674b61d745086315cf796fce0/common-26.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/309cd2cff7260e465792fda3dcbb063b730d8050/kxml2-2.3.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.activation/javax.activation/1.2.0/5b034823866d38f38f02bdad7ed8a14e650c61b6/javax.activation-1.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.12/1fdd1a2fed15cdf08780ed564279c0ddbff46419/commons-compress-1.12-sources.jar" />
@@ -3222,6 +3344,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.56/93c7b191596378df51c31b7d8717f71b0aeee53c/bcprov-jdk15on-1.56-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/26.0-jre/2e35b51c759ae1a6edbb967b65c525105536d382/guava-26.0-jre-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.21/7c5bbe1b5e11cf9098d3bc3eddf97e8ed8f4e94/kotlin-stdlib-jdk8-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/2.2.11/57f27d326da0d4eddc4077933a4cc77cb50002d2/jaxb-core-2.2.11-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.staxex/stax-ex/1.7.7/555d23df1be863aeda3846afcb76444fa17880d2/stax-ex-1.7.7-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.13/7e43a54348e59360ebcaa73d34f0ecb122f1c741/FastInfoset-1.2.13-sources.jar" />
@@ -3233,9 +3356,12 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.2.0/a8cd7823aa1dcd2fd6677c0c5988fdde9d1fb0a3/error_prone_annotations-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/dcd31de68a90e41e336f6b7afce0d39285c433d7/j2objc-annotations-1.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/886474da3f761d39fcbb723d97ecc5089e731f42/animal-sniffer-annotations-1.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/b8815e48fb45e94821287365bd9ce8623f459ac7/kotlin-stdlib-1.3.21-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/93dd94ae3e45cbde664abacd9d4c9b1b99f34201/kotlin-stdlib-jdk7-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.12-b140109.1041/d59f43002d3d07c6adaaeedd93e7944c273821d2/jaxb-api-2.2.12-b140109.1041-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.2.11/7745afc4dcc863b724f4a21fb3fc517cd5aaf891/txw2-2.2.11-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/2.21/5d42dda44aa68ff87756e93ae0042cd66d2daa78/istack-commons-runtime-2.21-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.3.2/362925d001bd44692fce774f957cfe80522fdbd0/gradle-3.3.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.3.2/3339f921baa1e0dd4656effb03146db9db227ee/builder-3.3.2.jar" />
@@ -3328,84 +3454,156 @@
               <option name="name" value="DiDiCar" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-docs-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-wrapper-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-jvm-services-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-native-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-process-services-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-build-cache-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/ant-1.9.11.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-cli-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/groovy-all-2.4.15.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-api-metadata-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/ant-launcher-1.9.11.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-persistent-cache-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-model-groovy-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-launcher-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-build-option-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-logging-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-core-api-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-tooling-api-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-runtime-api-info-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-base-services-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-resources-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-base-services-groovy-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-model-core-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-core-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-messaging-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/gradle-installation-beacon-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-platform-native-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-reporting-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-tooling-api-builders-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-testing-jvm-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-testing-native-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-tooling-native-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-ide-play-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-plugins-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-ide-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-platform-play-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-ide-native-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-scala-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-test-kit-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-language-scala-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-osgi-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-composite-builds-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-language-jvm-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-plugin-development-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-javascript-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-dependency-management-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-platform-jvm-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-build-init-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-resources-gcs-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-language-native-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-resources-http-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-resources-sftp-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-jacoco-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-plugin-use-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-publish-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-build-comparison-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-testing-junit-platform-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-maven-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-platform-base-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-testing-base-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-build-cache-http-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-diagnostics-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-resources-s3-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-workers-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-ear-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-signing-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-language-groovy-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-antlr-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-code-quality-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-language-java-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-announce-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-version-control-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/gradle-ivy-4.10.1.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/build-option" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/version-control" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/testing-junit-platform" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/docs" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/persistent-cache" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/workers" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/build-cache" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/core-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/resources-gcs" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/tooling-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/language-scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/build-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-docs-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-wrapper-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-jvm-services-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-native-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-process-services-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-build-cache-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/ant-1.9.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-cli-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/groovy-all-2.4.15.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-api-metadata-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/ant-launcher-1.9.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-persistent-cache-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-model-groovy-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-launcher-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-build-option-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-logging-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-core-api-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-tooling-api-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-runtime-api-info-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-base-services-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-resources-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-base-services-groovy-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-model-core-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-core-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-messaging-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/gradle-installation-beacon-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-platform-native-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-reporting-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-tooling-api-builders-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-testing-jvm-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-testing-native-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-tooling-native-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-ide-play-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-plugins-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-ide-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-platform-play-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-ide-native-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-scala-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-test-kit-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-language-scala-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-osgi-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-composite-builds-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-language-jvm-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-plugin-development-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-javascript-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-dependency-management-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-platform-jvm-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-build-init-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-resources-gcs-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-language-native-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-resources-http-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-resources-sftp-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-jacoco-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-plugin-use-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-publish-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-build-comparison-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-testing-junit-platform-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-maven-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-platform-base-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-testing-base-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-build-cache-http-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-diagnostics-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-resources-s3-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-workers-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-ear-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-signing-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-language-groovy-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-antlr-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-code-quality-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-language-java-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-announce-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-version-control-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/gradle-ivy-4.10.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/lib/plugins/ivy-2.2.0.jar" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -3426,63 +3624,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rb_map_drawable_selector.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rb_smartservice_drawable_selector.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rb_govaffair_drawable_selector.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu_library/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/DiDiCarApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/base_pager.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/SmartServicePager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/view/NoScrollViewPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/SmartServicePagerBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/CardServicePagerBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/NewsCenterPagerBean2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/PhotosMenuDetailPagerBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/TabDetailPagerBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/splash/SplashPicActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/splash/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/Constants.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/DensityUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/item_leftmenu_selector.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_leftmenu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/item_leftmenu_textcolor_selector.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_leftmenu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/TopicMenuDetailPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/NewsMenuDetailPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Maps3MenuDetailPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseMenuFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/LogUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/MapsMenuDetailPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting1MenuDetailPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting2MenuDetailPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting3MenuDetailPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting4MenuDetailPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/MapPagerBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/MapPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/MenuDetaiBasePager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/tabdetailpager/MotochheTabDetailPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/tabdetailpager/ShunfengcheDiDiTabPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/tabdetailpager/DaijiaDiDiTabPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/DiDiMenuDetailPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/tabdetailpager/TabDetailPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/titlebar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/LeftMenuFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/MenuDetaiBasePager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseCallCarTabPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/ChuzucheTabPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/SafetyTabPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/ShunfengcheTabPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager12.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabDetailPagerUseSameListTab.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPagerUseSameListTab.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/adapter/ContentFragmentAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/KuaicheTabPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/ContentFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/HomePager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/SettingPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/HomePager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/GovaffairPager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CardServicePager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/titlebar.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/adapter/ContentFragmentAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/ContentFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_4.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_5.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_6.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_7.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_8.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_9.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_10.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_11.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/callcartab_12.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager3.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager4.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager5.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager6.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager7.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager8.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager9.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager10.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager11.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1" />
-    <option name="y" value="33" />
+    <option name="x" value="80" />
+    <option name="y" value="227" />
     <option name="width" value="1600" />
     <option name="height" value="877" />
   </component>
@@ -3517,6 +3715,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DiDiCar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiDiCar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiDiCar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiDiCar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -3557,15 +3773,6 @@
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="tantuo" type="462c0819:PsiDirectoryNode" />
               <item name="didicar" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiDiCar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="tantuo" type="462c0819:PsiDirectoryNode" />
-              <item name="didicar" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -3575,16 +3782,7 @@
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="tantuo" type="462c0819:PsiDirectoryNode" />
               <item name="didicar" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiDiCar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="tantuo" type="462c0819:PsiDirectoryNode" />
-              <item name="didicar" type="462c0819:PsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+              <item name="menudatailpager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DiDiCar" type="1abcf292:AndroidViewProjectNode" />
@@ -3594,6 +3792,7 @@
               <item name="tantuo" type="462c0819:PsiDirectoryNode" />
               <item name="didicar" type="462c0819:PsiDirectoryNode" />
               <item name="menudatailpager" type="462c0819:PsiDirectoryNode" />
+              <item name="CallCarTabPager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DiDiCar" type="1abcf292:AndroidViewProjectNode" />
@@ -3623,24 +3822,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DiDiCar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiDiCar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ib_menu&#9;PSI&#9;JAVA://com.tantuo.didicar.base.BasePager#ib_menu&#10;child&#9;PSI&#9;JAVA://com.tantuo.didicar.domain.NewsCenterPagerBean2.DetailPagerData.ChildrenData&#10;childrenentity&#9;null&#9;null" />
-    <property name="android.project.structure.last.selected" value="Project" />
+    <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="Nexus_5X_API_26" />
@@ -3654,18 +3840,18 @@
       <recent name="com.tantuo.didicar" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tantuo.didicar.menudatailpager" />
+      <recent name="com.tantuo.didicar.menudatailpager.CallCarTabPager" />
       <recent name="com.tantuo.didicar.base" />
+      <recent name="com.tantuo.didicar.menudatailpager" />
+      <recent name="com.tantuo.didicar.menudatailpager.tabdetailpager" />
       <recent name="com.tantuo.didicar.utils" />
-      <recent name="com.tantuo.didicar.fragment" />
-      <recent name="com.tantuo.didicar.splash" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+      <recent name="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-2.4.1.aar/b7eff8fc6fbfadb0e3a89e2def18be49/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3865,7 +4051,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.26842752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.32125306" />
       <window_info id="Structure" order="1" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
@@ -3873,14 +4059,41 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Build Variants" order="6" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
       <window_info id="Captures" order="7" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" sideWeight="0.7757985" visible="true" weight="0.3251073" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.83660936" weight="0.2725322" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.8329238" visible="true" weight="0.15665236" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8636364" weight="0.49570817" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.497543" weight="0.32694477" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4963145" weight="0.3600439" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.490172" weight="0.35944206" />
       <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49508598" weight="0.32694477" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.22420147" side_tool="true" visible="true" weight="0.3251073" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.16707617" side_tool="true" visible="true" weight="0.15665236" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49692875" weight="0.38782412" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.63820636" weight="0.3165236" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.6363636" weight="0.21137339" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.49938574" weight="0.32832617" />
+      <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49815726" weight="0.32130778" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.32967034" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" x="608" y="165" width="540" height="723" id="Preview" order="3" weight="0.27300614" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.043611795" />
+      <window_info anchor="right" id="Hierarchy" order="6" weight="0.32923833" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.32125306" />
+      <window_info id="Structure" order="1" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Build Variants" order="6" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
+      <window_info id="Captures" order="7" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.7684275" visible="true" weight="0.38519314" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8359951" weight="0.27224007" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.497543" weight="0.32694477" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.490172" weight="0.35944206" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49508598" weight="0.32694477" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.23157248" side_tool="true" weight="0.3251073" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49692875" weight="0.38782412" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.63759214" weight="0.53648067" />
       <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.49938574" weight="0.32919955" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49815726" weight="0.32130778" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -3888,34 +4101,8 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" x="608" y="165" width="540" height="723" id="Preview" order="3" weight="0.27300614" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.043611795" />
       <window_info anchor="right" id="Hierarchy" order="6" weight="0.32923833" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.26151013" />
-      <window_info id="Structure" order="1" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Build Variants" order="6" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
-      <window_info id="Captures" order="7" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
-      <window_info anchor="bottom" id="Logcat" order="0" sideWeight="0.85347986" weight="0.32706374" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.4969475" weight="0.32694763" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4993895" weight="0.32822478" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.497558" weight="0.3279703" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.497558" weight="0.32822478" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.503663" side_tool="true" weight="0.24346918" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.498779" weight="0.38975966" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.496337" weight="0.27969348" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32950193" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" weight="0.32967034" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info active="true" anchor="right" x="608" y="165" width="540" height="723" id="Preview" order="3" visible="true" weight="0.20503376" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -3940,305 +4127,389 @@
           <properties class="android.support.v4.view.PagerAdapter" method="instantiateItem" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager1.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/widget/BaseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/item_leftmenu_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="82" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/help.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/DiDiMenuDetailPager.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/img_menu2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/govaffair_press.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bottom_textcolor_drawable_selector.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bottom_tab_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/back.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/anim.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_cart_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/home.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/title_red_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/didisplash.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hellopic_beforemain.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/titlebar.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/splash_logo.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/item_leftmenu_textcolor_selector.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseMenuFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+        <state relative-caret-position="-80">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_leftmenu.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_pager.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/PhotosMenuDetailPager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/InteracMenuDetailPager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/TopicMenuDetailPager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/tabdetailpager/TopicDetailPager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/tabdetailpager/TabDetailPager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/NewsMenuDetailPager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Maps3MenuDetailPager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/Constants.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/LeftMenuFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="240">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/LogUtil.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/MenuDetaiBasePager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-628">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="646">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/DiDiCarApplication.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/ChuzucheTabPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="228">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/SafetyTabPager.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/ShunfengcheTabPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="418">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabDetailPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting1MenuDetailPager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabDetailPagerUseSameListTab.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPagerUseSameListTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="35">
+          <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting2MenuDetailPager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="319">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting3MenuDetailPager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/domain/CallCarPagerBean.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/adapter/ContentFragmentAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="339">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting4MenuDetailPager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/KuaicheTabPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="55">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/MenuDetaiBasePager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="-47">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/ContentFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="148" column="68" selection-start-line="148" selection-start-column="68" selection-end-line="148" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3346#3347#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/SettingPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="570">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/GovaffairPager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting3MenuDetailPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/titlebar.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="190">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/HomePager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="608">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/GovaffairPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CardServicePager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="627">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/LeftMenuFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_3.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#3043#3044#0" expanded="true" />
-            <element signature="e#3085#3086#0" expanded="true" />
-            <element signature="e#3694#3695#0" expanded="true" />
-            <element signature="e#3729#3730#0" expanded="true" />
-            <element signature="e#3794#3795#0" expanded="true" />
-            <element signature="e#3826#3827#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="347">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_2.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_1.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_4.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="17" column="47" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_5.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_6.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_7.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_8.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_9.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_10.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_11.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcartab_12.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseCallCarTabPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1053">
-          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        <state relative-caret-position="745">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/base_pager.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rightmenu.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logo_splash_beforemain.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_leftmenu.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="81" column="60" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_fragment.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/adapter/ContentFragmentAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseMenuFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="1320">
+          <caret line="178" column="54" lean-forward="true" selection-start-line="178" selection-start-column="54" selection-end-line="178" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state relative-caret-position="367">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/fragment/ContentFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="424">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="31" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
