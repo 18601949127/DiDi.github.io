@@ -36,5 +36,10 @@ dependencies {
     implementation files('libs/locSDK_6.13.jar')
     implementation project(':SlidingMenu_library')
     implementation 'org.xutils:xutils:3.3.36'
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.0'
+    //ViewPagerIndicator
+    implementation 'com.github.JakeWharton:ViewPagerIndicator:2.4.1@aar'
+
 
 }

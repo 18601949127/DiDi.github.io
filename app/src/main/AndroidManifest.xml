@@ -43,15 +43,20 @@
             android:value="hz8RPE8WlwsKiqvXR7hEEQGhRdsiZbAP" />
 
         <activity android:name=".splash.SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
 
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.PageIndicatorDefaults">
+
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
         <activity android:name=".splash.SplashPicActivity"></activity>
     </application>
 

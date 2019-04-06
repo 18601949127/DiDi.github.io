@@ -18,18 +18,18 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/rb_home"
+            android:id="@+id/rb_map"
             android:drawableTop="@drawable/rb_home_drawable_selector"
             android:gravity="center"
-            android:text="主页"
+            android:text="打车"
             style="@style/bottom_tag_style"
             />
 
         <RadioButton
-            android:id="@+id/rb_map"
+            android:id="@+id/rb_home"
             android:drawableTop="@drawable/rb_map_drawable_selector"
             android:gravity="center"
-            android:text="打车"
+            android:text="主页"
             style="@style/bottom_tag_style"
             />
 

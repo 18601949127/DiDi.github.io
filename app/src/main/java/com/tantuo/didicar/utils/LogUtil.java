@@ -15,9 +15,7 @@ import java.util.Date;
 import java.util.Formatter;
 import java.util.Locale;
 
-/**
- * Created by GaryChan on 16/5/3.
- */
+
 public class LogUtil {
     public static String customTagPrefix = "";  // 自定义Tag的前缀，可以是作者名
     public static boolean isSaveLog = false;    // 是否把保存日志到SD卡中
