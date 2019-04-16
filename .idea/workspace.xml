@@ -13,44 +13,13 @@
     <list default="true" id="eb3eb73e-a52c-4856-9ecb-b710cc32ae6e" name="Default Changelist" comment="Extract 抽出两个 Adapter">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlidingMenu_library/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingMenu_library/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseCallCarTabPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseCallCarTabPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BasePager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager5.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager6.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager7.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/callcartab_9.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +56,7 @@
     <session id="-122482727">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="2" />
@@ -107,19 +76,19 @@
         <counts>
           <entry key="animator" value="1" />
           <entry key="gradle" value="25" />
-          <entry key="java" value="458" />
+          <entry key="java" value="469" />
           <entry key="png" value="34" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="266" />
+          <entry key="xml" value="267" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="25" />
           <entry key="Image" value="34" />
-          <entry key="JAVA" value="458" />
+          <entry key="JAVA" value="469" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="267" />
+          <entry key="XML" value="268" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -149,20 +118,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="70" column="70" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseFragment.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcar_menu_detail_pager.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -170,54 +137,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="373">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment2.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="56" column="31" selection-start-line="55" selection-end-line="56" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcar_tab_fragment_0.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcar_tab_fragment_1.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager0.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="33" column="16" selection-start-line="32" selection-end-line="35" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -3617,14 +3541,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/SettingPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/HomePager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/GovaffairPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CardServicePager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager8.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager9.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager10.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager11.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/DiDiCarApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/utils/NoPreloadViewPager.java" />
@@ -3668,6 +3584,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment1.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/callcar_tab_fragment_0.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment3.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment4.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment5.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment6.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment7.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment8.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment9.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment10.java" />
       </list>
     </option>
   </component>
@@ -3817,15 +3741,15 @@
       <recent name="com.tantuo.didicar" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tantuo.didicar.TabFragment" />
       <recent name="com.tantuo.didicar.menudatailpager.CallCarTabPager" />
       <recent name="com.tantuo.didicar.utils" />
       <recent name="com.tantuo.didicar.base" />
       <recent name="com.tantuo.didicar.menudatailpager" />
-      <recent name="com.tantuo.didicar.menudatailpager.tabdetailpager" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
       <recent name="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-2.4.1.aar/b7eff8fc6fbfadb0e3a89e2def18be49/res/drawable" />
@@ -4027,6 +3951,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="173" width="1600" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.30774194" />
       <window_info id="Structure" order="1" sideWeight="0.5011848" side_tool="true" weight="0.21123321" />
@@ -4041,10 +3966,10 @@
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.497543" weight="0.32694477" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.490172" weight="0.35944206" />
       <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49508598" weight="0.32694477" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.14193548" side_tool="true" visible="true" weight="0.199187" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.14193548" side_tool="true" visible="true" weight="0.600271" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49692875" weight="0.38782412" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.85806453" visible="true" weight="0.199187" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" sideWeight="0.49938574" weight="0.32832617" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.85806453" visible="true" weight="0.600271" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.49938574" weight="0.32832617" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.497543" visible="true" weight="0.32130778" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32967034" />
@@ -4081,74 +4006,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/26.1.0/4d52cef4a24bf9939de1d256ca9f0974c6e636a4/support-core-ui-26.1.0-sources.jar!/android/support/v4/view/ViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="1001" selection-start-line="1001" selection-end-line="1001" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tabpager1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabDetailPagerUseSameListTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcar_menu_detail_pager.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/pager/CallCarPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="122" column="46" selection-start-line="122" selection-end-line="122" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseCallCarTabPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/img_menu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/MenuDetaiBasePager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarTabPager/TabPager5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -4378,13 +4235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/base/BaseFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -4442,9 +4292,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment3.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment4.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment5.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment6.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment7.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment8.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment9.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="373">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -4452,8 +4337,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/TabFragment/TabFragment2.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/Setting1MenuDetailPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tantuo/didicar/menudatailpager/CallCarMenuDetailPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="70" column="70" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callcar_menu_detail_pager.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
