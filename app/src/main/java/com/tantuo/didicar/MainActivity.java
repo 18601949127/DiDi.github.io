@@ -7,11 +7,14 @@ import android.util.DisplayMetrics;
 import android.view.Window;
 
 import com.baidu.mapapi.SDKInitializer;
+import com.baidu.mapapi.map.SupportMapFragment;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 import com.tantuo.didicar.fragment.ContentFragment;
 import com.tantuo.didicar.fragment.LeftMenuFragment;
 import com.tantuo.didicar.utils.LogUtil;
+
+
 
 /**
  * Author by TanTuo, WeiXin:86-18601949127,
@@ -23,6 +26,9 @@ public class MainActivity extends SlidingFragmentActivity {
 
     public static final String MAIN_CONTENT_TAG = "main_content_tag";
     public static final String LEFTMENU_TAG = "leftmenu_tag";
+    public static SupportMapFragment map;
+    public static FragmentManager manager;
+    private SlidingMenu slidingMenu;
 
 //    private MapView mMapView;
 //    private BaiduMap mBaiduMap;
@@ -36,6 +42,8 @@ public class MainActivity extends SlidingFragmentActivity {
         //注意该方法要再setContentView方法之前实现
 
         SDKInitializer.initialize(getApplicationContext());
+
+
 
         setContentView(R.layout.activity_main);
 
@@ -56,7 +64,7 @@ public class MainActivity extends SlidingFragmentActivity {
         //添加左侧Sliding_Menu
         setBehindContentView(R.layout.activity_leftmenu);
         //添加右侧菜单 secondaryMenu
-        SlidingMenu slidingMenu = getSlidingMenu();
+        slidingMenu = (SlidingMenu)getSlidingMenu();
         slidingMenu.setSecondaryMenu(R.layout.activity_rightmenu);
         //设置SlidingMenu模式
         slidingMenu.setMode(SlidingMenu.LEFT);

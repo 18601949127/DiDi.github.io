@@ -8,6 +8,7 @@ import com.baidu.mapapi.map.TextureMapView;
 import com.tantuo.didicar.R;
 import com.tantuo.didicar.base.BaseCallCarTabPager;
 import com.tantuo.didicar.domain.CallCarPagerBean;
+import com.tantuo.didicar.utils.LogUtil;
 
 /**
  * Author by TanTuo, WeiXin:86-18601949127,
@@ -28,17 +29,21 @@ public class TabPager4 extends BaseCallCarTabPager {
 
     @Override
     public View initView() {
+        LogUtil.i("进入： 类:TabPager4 -----方法:initView()---- ");
         View view = View.inflate(context, R.layout.callcartab_4,null);
         //mMapView = (MapView) view.findViewById(R.id.bmapView);
         mMapView =  view.findViewById(R.id.bmapView);
-        mBaiduMap = mMapView.getMap();
+
         return view;
     }
 
     @Override
     public void initData() {
+        LogUtil.i("进入： 类:TabPager4 -----方法:initData()---- ");
         super.initData();
+        mBaiduMap = mMapView.getMap();
 
     }
+
 
 }
