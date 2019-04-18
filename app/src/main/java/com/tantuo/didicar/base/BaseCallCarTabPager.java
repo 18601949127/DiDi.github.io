@@ -44,4 +44,9 @@ public abstract class BaseCallCarTabPager {
     public void initData() {
 
     }
+
+    public void removeMaps(){
+
+    }
+
 }

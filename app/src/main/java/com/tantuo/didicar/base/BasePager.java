@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.tantuo.didicar.MainActivity;
 import com.tantuo.didicar.R;
-import com.tantuo.didicar.utils.LogUtil;
 
 /**
  * Author by TanTuo, WeiXin:86-18601949127,
@@ -50,7 +49,6 @@ public class BasePager {
      */
 
     private View initView() {
-        LogUtil.i( "进入： 类:BasePager -----方法:initView()---- ");
         //基类的页面
         View view = View.inflate(context, R.layout.base_pager,null);
         tv_title = (TextView) view.findViewById(R.id.tv_title);

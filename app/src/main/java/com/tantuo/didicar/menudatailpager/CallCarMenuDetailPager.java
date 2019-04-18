@@ -11,6 +11,7 @@ import com.tantuo.didicar.R;
 import com.tantuo.didicar.base.BaseCallCarTabPager;
 import com.tantuo.didicar.base.MenuDetaiBasePager;
 import com.tantuo.didicar.domain.CallCarPagerBean;
+import com.tantuo.didicar.menudatailpager.CallCarTabPager.TabPager0;
 import com.tantuo.didicar.menudatailpager.CallCarTabPager.TabPager1;
 import com.tantuo.didicar.menudatailpager.CallCarTabPager.TabPager10;
 import com.tantuo.didicar.menudatailpager.CallCarTabPager.TabPager11;
@@ -49,8 +50,6 @@ public class CallCarMenuDetailPager extends MenuDetaiBasePager {
     private ImageButton ib_tab_next;
 
 
-
-
     //用xUtils3 声明并XML控件绑定
     @ViewInject(R.id.viewpager)
     private ViewPager viewPager;
@@ -75,7 +74,7 @@ public class CallCarMenuDetailPager extends MenuDetaiBasePager {
         ib_tab_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                viewPager.setCurrentItem(viewPager.getCurrentItem()+1);
+                viewPager.setCurrentItem(viewPager.getCurrentItem() + 1);
             }
         });
         return view;
@@ -97,25 +96,26 @@ public class CallCarMenuDetailPager extends MenuDetaiBasePager {
 
         //1.这里为TabDetailPagers准备数据
         callCarTabPagers = new ArrayList<>();
-        callCarTabPagers.add(new TabPager1(context,children.get(0)));
-        callCarTabPagers.add(new TabPager1(context,children.get(1)));
-        callCarTabPagers.add(new TabPager2(context,children.get(2)));
-        callCarTabPagers.add(new TabPager3(context,children.get(3)));
-        callCarTabPagers.add(new TabPager4(context,children.get(4)));
-        callCarTabPagers.add(new TabPager5(context,children.get(5)));
-        callCarTabPagers.add(new TabPager6(context,children.get(6)));
-        callCarTabPagers.add(new TabPager7(context,children.get(7)));
-        callCarTabPagers.add(new TabPager8(context,children.get(8)));
-        callCarTabPagers.add(new TabPager9(context,children.get(9)));
-        callCarTabPagers.add(new TabPager10(context,children.get(10)));
-        callCarTabPagers.add(new TabPager11(context,children.get(11)));
+        callCarTabPagers.add(new TabPager0(context, children.get(0)));
+        callCarTabPagers.add(new TabPager1(context, children.get(1)));
+        callCarTabPagers.add(new TabPager2(context, children.get(2)));
+        callCarTabPagers.add(new TabPager3(context, children.get(3)));
+        callCarTabPagers.add(new TabPager4(context, children.get(4)));
+        callCarTabPagers.add(new TabPager5(context, children.get(5)));
+        callCarTabPagers.add(new TabPager6(context, children.get(6)));
+        callCarTabPagers.add(new TabPager7(context, children.get(7)));
+        callCarTabPagers.add(new TabPager8(context, children.get(8)));
+        callCarTabPagers.add(new TabPager9(context, children.get(9)));
+        callCarTabPagers.add(new TabPager10(context, children.get(10)));
+        callCarTabPagers.add(new TabPager11(context, children.get(11)));
 
         //2.这里为TabDetailPagers准备数据
         viewPager.setAdapter(new MyTabDetailPagerAdapter());
+        viewPager.setOffscreenPageLimit(12);//viewPager预加载，从0开始
 
         //将viewPager绑定到viewPagerIndicator
         tabPageIndicator.setViewPager(viewPager);
-        //绑定之后注意如果要使用ViewPagerIndicator,还要在当前activity的 Manifest文件类把样式修改成下面
+        //绑定之后注意如果要使用ViewPagerIndicator,还要在当前activity的 Manifest文件类把样式修改成下面 by:tantuo
         //android:theme="@style/Theme.PageIndicatorDefaults">
         //并且可以在viewPageIndicator中的 values 文件里修改样式，比如自定义 colorSelector
 
@@ -135,11 +135,14 @@ public class CallCarMenuDetailPager extends MenuDetaiBasePager {
         @Override
         public Object instantiateItem(ViewGroup container, int position) {
             BaseCallCarTabPager tabDetailPager = callCarTabPagers.get(position);
-            View rootView = tabDetailPager.rootView;//各个子页面
+            LogUtil.i("进入： 类:MyTabDetailPagerAdapter -----方法:instantiateItem()----初始化第" + position + "个界面");
 
+
+            View rootView = tabDetailPager.rootView;//各个子页面
             //调用initData()
             //注意：这里的initData()看上去调用的是BaseCallCarTabPager,肯定是调用的是各个子类pager的。by:Tantuo
             //tabDetailPager.initData();//初始化数据
+            LogUtil.i("进入： 类:MyTabDetailPagerAdapter -----方法:instantiateItem()----初始化第" + position + "个界面,initData()方法");
 
             container.addView(rootView);
             return rootView;
@@ -170,13 +173,16 @@ public class CallCarMenuDetailPager extends MenuDetaiBasePager {
     private class MyOnPageChangeListener implements ViewPager.OnPageChangeListener {
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-            LogUtil.i("---------------------进入了TabdetailPager的onPagerScrolled方法 ");
+
 
         }
 
         @Override
         public void onPageSelected(int position) {
             LogUtil.i("----------------------进入了TabdetailPager的onPagerSelected方法 ");
+
+//          callCarTabPagers.get(position).initView();
+//
             callCarTabPagers.get(position).initData();
 
         }

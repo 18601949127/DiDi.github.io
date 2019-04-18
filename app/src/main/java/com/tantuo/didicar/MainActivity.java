@@ -7,6 +7,7 @@ import android.util.DisplayMetrics;
 import android.view.Window;
 
 import com.baidu.mapapi.SDKInitializer;
+import com.baidu.mapapi.map.SupportMapFragment;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 import com.tantuo.didicar.fragment.ContentFragment;
@@ -23,6 +24,8 @@ public class MainActivity extends SlidingFragmentActivity {
 
     public static final String MAIN_CONTENT_TAG = "main_content_tag";
     public static final String LEFTMENU_TAG = "leftmenu_tag";
+    public static SupportMapFragment map;
+    public static FragmentManager manager;
 
 //    private MapView mMapView;
 //    private BaiduMap mBaiduMap;
@@ -36,6 +39,8 @@ public class MainActivity extends SlidingFragmentActivity {
         //注意该方法要再setContentView方法之前实现
 
         SDKInitializer.initialize(getApplicationContext());
+
+
 
         setContentView(R.layout.activity_main);
 

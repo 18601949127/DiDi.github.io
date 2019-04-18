@@ -1,11 +1,8 @@
 package com.tantuo.didicar.pager;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.text.TextUtils;
-import android.view.Gravity;
 import android.view.View;
-import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.tantuo.didicar.MainActivity;
@@ -39,7 +36,6 @@ public class CallCarPager extends BasePager {
 
 
     private List<CallCarPagerBean.DataBean> data;
-    private TextView textView;
 
 
     public CallCarPager(Context context) {
@@ -58,17 +54,6 @@ public class CallCarPager extends BasePager {
         ib_menu.setVisibility(View.VISIBLE);
 
         tv_title.setText("打车界面标题");
-
-
-        textView = new TextView(context);
-        textView.setGravity(Gravity.CENTER);
-        textView.setTextColor(Color.RED);
-        textView.setTextSize(25);
-
-
-        fl_content.addView(textView);
-
-        textView.setText("这里是滴滴打车主页面");
 
         //缓存数据
         String saveJson = CacheUtils.getString(context, Constants.CALL_CAR_PAGER_URL);
@@ -92,7 +77,6 @@ public class CallCarPager extends BasePager {
             @Override
             public void onSuccess(String result) {
                 LogUtil.i("使用xutils3联网请求数据成功" + result);
-                textView.setText("使用xutils3联网请求数据成功");
 
                 //缓存数据
                 CacheUtils.putString(context, Constants.CALL_CAR_PAGER_URL, result);
@@ -104,8 +88,6 @@ public class CallCarPager extends BasePager {
             @Override
             public void onError(Throwable ex, boolean isOnCallback) {
                 LogUtil.i("使用xutils3联网请求数据失败" + ex.getMessage());
-
-                textView.setText("使用xutils3联网请求数据失败");
 
 
             }
